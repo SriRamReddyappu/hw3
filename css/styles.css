@@ -1,0 +1,52 @@
+/* CSS styles for the dictionary application */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.dictionary-result {
+    margin-top: 20px;
+}
+
+.definition {
+    margin-bottom: 10px;
+}
+
+.definition h2 {
+    margin-bottom: 5px;
+}
+
+.definition p {
+    margin: 5px 0;
+}
